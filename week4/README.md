@@ -5,12 +5,9 @@ These commands help verify and inspect your Docker environment.
 docker --version       # Shows installed Docker version
 docker info            # Displays system-wide Docker information
 docker history <image> # Shows image layer history
+
 🐳 2. Image & Container Management
-
-
-
 Manage Docker images and containers before running applications.
-
 docker images          # List all local images
 docker pull <image>    # Download image (e.g., docker pull httpd)
 
